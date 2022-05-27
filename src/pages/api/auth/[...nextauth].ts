@@ -1,6 +1,6 @@
 import { query as q, query } from "faunadb";
 
-import NextAuth, { Account, Profile, User } from "next-auth";
+import NextAuth from "next-auth";
 import GitHubProvider from "next-auth/providers/github";
 
 import { fauna } from "../../../services/fauna";
